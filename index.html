@@ -24,14 +24,15 @@
 
         body {
             background-color: var(--outer-bg);
-            height: 100vh;
+            min-height: 100vh;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             font-family: 'Urbanist', sans-serif;
             color: var(--text-white);
-            overflow: hidden;
+            overflow: auto;
+            padding: 20px;
         }
 
         .slide-container {
@@ -41,7 +42,8 @@
             display: none;
             flex-direction: column;
             height: 720px;
-            overflow: hidden;
+            overflow-y: auto;
+            overflow-x: hidden;
             padding: 60px;
             position: relative;
             width: 1280px;
@@ -291,7 +293,7 @@
     <h2 class="slide-title">Mastering <span>Linking Words</span></h2>
     <div class="content-area">
         <div class="word-bank">
-            in conclusion • firstly • however • consequently • on the other hand • such as • in spite of • last but not least • to sum up • furthermore • to begin with • in addition
+            in conclusion • firstly • however • consequently • on the other hand • such as • in spite of • last but not least • to sum up • furthermore • to begin with • in addition • for instance
         </div>
         <div class="table-layout">
             <table>
@@ -317,7 +319,7 @@
     <div class="content-area">
         <p>Identify the <strong>Point</strong>, <strong>Evidence</strong>, and <strong>Example</strong> in the paragraph below:</p>
         <div class="pee-text-box">
-            To begin with, replacing traditional exams with continuous assessment is a much more effective way to measure a student's true intelligence. This is because traditional exams only test memory under stress on a single day, rather than actual understanding over time. For instance, a student might fail a test simply because they panicked, despite having great analytical skills.
+            To begin with, replacing traditional exams with continuous assessment is a much more effective way to measure a student's true intelligence. Many educators today argue that the current educational system is outdated and often fails to capture the full picture of a learner's capabilities. This is because traditional exams only test memory under stress on a single day, rather than actual understanding over time. Students often spend weeks memorizing facts only to forget them shortly after leaving the examination hall, which does not reflect genuine learning. For instance, a student might fail a test simply because they panicked, despite having great analytical skills. This kind of situation demonstrates that a one-time evaluation can be highly misleading and unfair to those who suffer from test anxiety.
         </div>
         <div class="tiled-content" style="margin-top: 30px;">
             <div class="tile" style="padding: 15px; border-color: var(--discovery-blue);"><h3>P</h3><p>Main Point</p></div>
